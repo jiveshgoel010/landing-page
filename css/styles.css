@@ -1,0 +1,135 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header,
+main {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+}
+
+header {
+  justify-content: space-around;
+  padding: 10px 0 100px 0;
+}
+
+nav ul {
+  list-style: none;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul a:link {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+main {
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.main-text {
+  max-width: 700px;
+}
+
+.main-item {
+  margin-bottom: 10px;
+  flex: 1;
+}
+
+#main-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+.card > h3 {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  flex: 1;
+  justify-content: center;
+}
+
+.item {
+  max-width: min-content;
+}
+
+.q-container {
+    background-color: #E5E7EB;
+    padding: 75px 0;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.signup {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    max-width: 700px;
+    display: flex;
+    margin: 0 auto;
+    padding: 40px 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex: 1;
+    border-radius: 10px;
+}
+
+#signup {
+    border: 1px solid white;
+    background: #3882f6;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 25px 0;
+    text-align: center;
+}
